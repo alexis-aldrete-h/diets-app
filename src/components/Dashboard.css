@@ -1,0 +1,23 @@
+.dashboard{
+    background-color: red;
+    height: 82vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.menu, .diet-plan, .plates-and-diets{
+    background-color: red;
+    border: solid 2px black;
+}
+
+.diet-plan{
+    flex: 4 1 0px;
+    background-color: green;
+}
+
+.plates-and-diets{
+    flex: 1 1 0px;
+    background-color: gold;
+}
+

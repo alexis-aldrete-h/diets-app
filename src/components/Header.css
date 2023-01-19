@@ -1,0 +1,51 @@
+h1, ul ,li{
+    margin: 0;
+}
+
+.header{
+    width: 100vw;
+    height:8vh;
+    border-bottom: solid 1px #dddddd;
+}
+
+.navbar{
+    display: flex;
+    padding: 0;
+    flex-flow: row wrap;
+    height: 100%;
+}
+
+.navbar-item{
+    display: flex;
+}
+
+#logo,
+#navbar-extra-cont{
+    flex: 1 1 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+#navbar-menu{
+    justify-content: center;
+    align-items: center;
+    flex: 3 1 0px;
+}
+
+.navbar-menu-item{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.navbar-menu-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+#logo img{
+    max-height: 2.5rem;
+}
