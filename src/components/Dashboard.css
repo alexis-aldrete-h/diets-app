@@ -1,14 +1,8 @@
 .dashboard{
-    background-color: red;
-    height: 82vh;
+    height: 80vh;
     width: 100vw;
     display: flex;
     flex-wrap: nowrap;
-}
-
-.menu, .diet-plan, .plates-and-diets{
-    background-color: red;
-    border: solid 2px black;
 }
 
 .diet-plan{

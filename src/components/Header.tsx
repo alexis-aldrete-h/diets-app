@@ -1,4 +1,5 @@
 import './Header.css';
+import SearchBar from './SearchBar';
 
 function Header(){
     return <div className="header">
@@ -7,18 +8,7 @@ function Header(){
         <img src={"/images/logo.png"}></img>
       </div>
       <div className="navbar-item" id="navbar-menu">
-        <li className="navbar-menu-item">
-          <a href="#">Home</a>
-        </li>
-        <li className="navbar-menu-item">
-          <a href="#">Second</a>
-        </li>
-        <li className="navbar-menu-item">
-          <a href="#">Third</a>
-        </li>
-        <li className="navbar-menu-item">
-          <a href="#">Fourth</a>
-        </li>
+        <SearchBar />
       </div>
       <div className="navbar-item" id="navbar-extra-cont"></div>
     </ul>
