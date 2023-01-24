@@ -25,11 +25,11 @@
     text-decoration: none;
     color: black;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     color: #A5A5A5;
 }
 
 .menu-item img{
-    max-height: 2.5rem;
+    max-height: 1.75rem;
     margin-bottom: 10px;
 }

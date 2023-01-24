@@ -32,6 +32,9 @@ export default function SearchBar() {
                                 size="small"
                                 variant="standard"
                                 label="Buscar por ID"
+                                InputLabelProps={{
+                                    shrink: true,
+                                }}
                                 InputProps={{
                                     ...params.InputProps,
                                     type: 'search',
@@ -61,6 +64,9 @@ export default function SearchBar() {
                                 size="small"
                                 variant="standard"
                                 label="Buscar por Iniciales"
+                                InputLabelProps={{
+                                    shrink: true,
+                                }}
                                 InputProps={{
                                     ...params.InputProps,
                                     type: 'search',
@@ -90,6 +96,9 @@ export default function SearchBar() {
                                 size="small"
                                 variant="standard"
                                 label="Buscar por Calorias"
+                                InputLabelProps={{
+                                    shrink: true,
+                                }}
                                 InputProps={{
                                     ...params.InputProps,
                                     type: 'search',
