@@ -1,7 +1,8 @@
+import NutritionLabel from './NutritionLabel';
 import './TablePlateCard.css';
 
-export default function PlateTableCard(props: { plateImagePath: string; plateTitle: string; calories: number; proteins: number; carbs: number; fat: number } ){
-    return(
+export default function PlateTableCard(props: { plateImagePath: string; plateTitle: string; calories: number; proteins: number; carbs: number; fat: number }) {
+    return (
         <div className="table-plate-card">
             <div className='table-plate-image'>
                 <img src={props.plateImagePath}></img>
@@ -9,19 +10,8 @@ export default function PlateTableCard(props: { plateImagePath: string; plateTit
             <div className="table-plate-title">
                 <p>{props.plateTitle}</p>
             </div>
-            <div className="table-plate-data">
-                <div className="table-plate-calories">{props.calories} cal</div>
-                <div className="table-plate-macros">
-                    <div className='macros-data' id="proteins">
-                        <p>P: {props.proteins}</p>
-                    </div>
-                    <div className='macros-data' id="carbs">
-                        <p>C: {props.carbs}</p>
-                    </div>
-                    <div className='macros-data' id="fat">
-                        <p>P: {props.fat}</p>
-                    </div>
-                </div>
+            <div className='nutrition-label-wrapper'>
+                <NutritionLabel calories={props.calories} proteins={props.proteins} carbs={props.carbs} fat={props.fat} />
             </div>
         </div>
     )

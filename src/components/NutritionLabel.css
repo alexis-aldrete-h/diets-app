@@ -1,0 +1,43 @@
+#nutrition-label{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.calories{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0px;
+    border-right: solid 2px black;
+    font-weight: 500;
+    font-size:0.6rem;
+}
+
+.macros{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex: 2 1 0px;
+}
+
+.macros-data{
+    font-weight: 300;
+    font-size:0.6rem;
+    color: black;
+    height: 100%;
+    text-justify: center;
+    flex: 1 0 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#proteins, #carbs{
+    border-right: 1px black solid;
+}

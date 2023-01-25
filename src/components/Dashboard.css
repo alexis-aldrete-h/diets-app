@@ -6,12 +6,10 @@
 }
 
 .diet-plan{
-    flex: 4 1 0px;
-    background-color: green;
+    flex: 3 1 0px;
 }
 
 .plates-and-diets{
     flex: 1 1 0px;
-    background-color: gold;
 }
 

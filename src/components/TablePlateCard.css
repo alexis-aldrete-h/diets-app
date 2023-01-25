@@ -1,11 +1,10 @@
 .table-plate-card{
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
 }
 
 .table-plate-image{
@@ -32,57 +31,13 @@
 
 .table-plate-title p{
     font-weight: 600;
-    font-size: small;
+    font-size: 0.75rem;
 }
 
-.table-plate-data{
+.nutrition-label-wrapper{
     height: 20%;
     width: 100%;
-    display: flex;
-    flex-direction: row;
 }
-
-.table-plate-calories{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1 1 0px;
-    border-right: black 1px solid;
-}
-
-.table-plate-calories{
-    font-weight: 500;
-    font-size:0.7rem;
-}
-
-.table-plate-macros{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex: 2 1 0px;
-}
-
-.macros-data{
-    font-weight: 300;
-    font-size:0.7rem;
-    color: #DDDDDD;
-    height: 100%;
-    text-justify: center;
-    flex: 1 0 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#proteins, #carbs{
-    border-right: 1px #DDDDDD solid;
-}
-
 
 
 
